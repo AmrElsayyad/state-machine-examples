@@ -33,7 +33,7 @@ int main() {
 
     // Run the FSM
     for (;;) {
-        state = state(); // Update the state with the input
+        state = state(); // Update the state
         if (state == NULL) break; // End the FSM if the state is NULL
     }
 }
